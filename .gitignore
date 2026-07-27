@@ -1,0 +1,75 @@
+# -- Datasets --------------------------------------------------
+# Raw datasets are large and should be downloaded locally.
+# See README.md for download instructions.
+datasets/raw/
+
+# Keep processed outputs if they are small enough
+# datasets/processed/
+
+# -- Python ----------------------------------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+wheels/
+pip-wheel-metadata/
+.installed.cfg
+lib/
+lib64/
+
+# -- Virtual environments --------------------------------------
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# -- Environment variables / secrets ---------------------------
+.env.local
+.env.*.local
+*.env
+secrets.yaml
+secrets.json
+
+# -- IDE / Editor ----------------------------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# -- Jupyter ---------------------------------------------------
+.ipynb_checkpoints/
+*.ipynb
+
+# -- Logs & temp -----------------------------------------------
+logs/
+*.log
+tmp/
+temp/
+*.tmp
+
+# -- Model weights & checkpoints -------------------------------
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+checkpoints/
+model_cache/
+
+# -- Docker ----------------------------------------------------
+.dockerignore
